@@ -1,4 +1,4 @@
-# [Tetiana Fedorenko](https://tanyafedorenko.github.io/rsschool-cv/cv)
+# [Tetiana Fedorenko](cv "https://tanyafedorenko.github.io/rsschool-cv/cv")
 
 
 ### Contacts
