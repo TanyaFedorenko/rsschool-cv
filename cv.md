@@ -6,7 +6,7 @@
 * Location: Kyiv, Ukraine
 * Phone: +38063 248 52 19
 * Email: tetianafedorenk@gmail.com
-* GitHub: [https://github.com/TanyaFedorenko](TanyaFedorenko 'https://github.com/')
+* GitHub: [https://github.com/TanyaFedorenko]( https://github.com/TanyaFedorenko)
 
 ### About me
 I am reliable and result-oriented HTML Coder. I
