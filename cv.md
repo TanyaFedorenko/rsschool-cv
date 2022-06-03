@@ -1,12 +1,12 @@
-# [Tetiana Fedorenko](cv "https://tanyafedorenko.github.io/rsschool-cv/cv")
 
+# Tetiana Fedorenko
 
 ### Contacts
 
 * Location: Kyiv, Ukraine
 * Phone: +38063 248 52 19
 * Email: tetianafedorenk@gmail.com
-* GitHub: https://github.com/TanyaFedorenko
+* GitHub: [https://github.com/TanyaFedorenko](TanyaFedorenko 'https://github.com/')
 
 ### About me
 I am reliable and result-oriented HTML Coder. I
@@ -21,7 +21,7 @@ their project.
 ### Skills
 * HTML5/CSS
 * Knowledge of JavaScript
-* CSS Preprocessing(Sass/Scss)
+* CSS (Bootstrap, SASS/SCSS, BEM)
 * Version Control System: git
 * Building responsive, cross-brouser interfaces
 from scratch
@@ -43,7 +43,7 @@ function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
 
 ### Education
 
-* **University**: Donetsk National University
+* **University:** Donetsk National University
 * **Courses:**
    + SkillUp -JS developer/Front-end
    + Epam training -JS developer/Front-end
