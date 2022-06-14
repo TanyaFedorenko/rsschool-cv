@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header ><nav class="container"><ul class="nav-menu">
+        <li class="nav-menu-item"><a  class="nav-menu-link" href=""></a>Contacts</li>
+        <li class="nav-menu-item"><a class="nav-menu-link" href=""></a>Work Experiance</li>
+        <li class="nav-menu-item"><a class="nav-menu-link" href=""></a>Education</li>
+    </ul></nav></header>
+    <main class="main container">
+
+          <!--Sidebar-->
+          <aside class="sidebar">
+            <img class="avatar" src="img/CV_foto-FedorenkoT.jpg" alt="User Photo">
+            <!--Contacts-->
+            <div class="sidebar-content">
+                <h3  class="sidebar-title">Contacts</h3>
+                <div>
+                    <p><span class="contact-type">Location:</span>  Kyiv, Ukraine</p>
+                    <p><span class="contact-type">Phone:</span>  <a class="contact-link" href="tel:+380632485219">+38063 248 52 19</a></p>
+                    <p><span class="contact-type"> Email:</span> <a class="contact-link" href="mailto:tetianafedorenk@gmail.com">tetianafedorenk@gmail.com</a></p>
+                    <p><span class="contact-type">GitHub:</span><a class="contact-link" href=" https://github.com/TanyaFedorenko"> https://github.com/TanyaFedorenko</a></p>
+                </div>
+            </div>
+          
+            <!--Tech Skills-->
+            <div class="sidebar-content">
+                <h3 class="sidebar-title">Tech Skills </h3>
+                <ul class="sidebar-list">
+                 <li><span class="sidebar-list-text">HTML5/CSS</span> </li>   
+                 <li><span class="sidebar-list-text"> Knowledge of JavaScript</span></li>
+                 <li><span class="sidebar-list-text"> CSS (Bootstrap, SASS/SCSS, BEM)</span> </li>
+                 <li><span class="sidebar-list-text">Gulp/WebPack</span> </li>
+                 <li><span class="sidebar-list-text">Version Control System: git</span> </li>
+                 <li><span class="sidebar-list-text"> Building responsive, cross-brouser interfaces
+                    from scratch</span></li>
+                 <li><span class="sidebar-list-text">Browser Developer Tools</span> </li>
+                 <li><span class="sidebar-list-text">Adobe Photoshop/ GIMP/Figma</span> </li>
+                </ul>
+            </div>
+            <!--Soft Skills-->
+            <div class="sidebar-content">
+                <h3 class="sidebar-title">Code Example </h3>
+                <code>function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
+
+                    return enteredCode === correctCode && Date.parse(expirationDate) >= Date.parse(currentDate)
+                  }</code>
+            </div>
+        </aside>
+        <!--Main Content-->
+        <section class="info">        
+            <!--About User-->
+            <div>
+                <h2 class="position">Markup developer/Junior Front-End </h2> 
+                <h1 class="info-name">Tetiana Fedorenko</h1>
+                <p class="info-about">I am reliable and result-oriented HTML Coder. I
+                    make it my goal to create websites with the
+                    user in mind. I am constantly striving to learn
+                    new technologies and look to ways to better
+                    myself in this industry. I believe in opportunity
+                    to find the team which is passionate about
+                    their project.</p>
+                
+            </div>
+            <!--Projects-->
+            <div>
+                <h3 class="info-title">Projects</h3>
+                <ol class="info-list-num">
+                    <li><a href="https://github.com/TanyaFedorenko/BOKoBOK/">https://github.com/TanyaFedorenko/BOKoBOK/</a>
+                      <span> ........[ HTML5, CSS3 ]</span> 
+                    </li>
+                    <li><a href="https://github.com/TanyaFedorenko/Food">https://github.com/TanyaFedorenko/Food</a>
+                      <span>........[ JavaScript ] </span>  
+                    </li>
+                    <li><a href="https://github.com/TanyaFedorenko/Gina">https://github.com/TanyaFedorenko/Gina</a>
+                      <span>........[ HTML5, CSS3 ]</span>  
+                    </li>
+                </ol>
+            </div>
+            <!--Work Experiance-->
+            <div>
+              <H3 class="info-title">Work Experiance </H3>
+              <!--Company 1-->
+              <div>
+                  <h4 class="info-subtitle">Newxel <span class="orange-color">HTML/CSS coder</span> </h4>
+                  <h5 class="info-date">February 2022 - up to now   |   Country</h5>
+                  <ul class="info-list-dots"> 
+                      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                      <li>Risus commodo viverra maecenas. </li>
+                      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                  </ul>
+
+              </div> 
+              <!--Company 2-->
+              <div>
+                <h4 class="info-subtitle"> Evo company <span class="orange-color">Roga & Kopyta New</span> </h4>
+                <h5 class="info-date">October 2019 - December 2021   |   Country</h5>
+                <ul class="info-list-dots">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
+                    <li>Quis ipsum suspendisse ultrices gravida.</li>
+                    <li>Risus commodo viverra maecenas. </li>
+                    
+                </ul>
+              </div>
+              <!--Company 3-->
+              
+
+            </div>
+            <!--Education-->
+            <div>
+                <h3 class="info-title">Education</h3>
+               
+                <h4 class="info-subtitle orange-color">SkillUp -JS developer/Front-end
+                </h4>
+                <h4 class="info-subtitle orange-color">Donetsk National University
+                </h4>
+               
+            </div>
+        </section>
+      
+
+    </main>
+    <footer>
+        <div class="footer-wrap container">
+            <a href="https://github.com/TanyaFedorenko" class="footer-text">GitHub</a>
+    
+            <time class="main-text">2022</time>
+      
+            <a class="footer-logo" href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs-logo""></a>
+          </div>
+    </footer>
+</body>
+</html>
