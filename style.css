@@ -1,46 +1,43 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
-a{
+a {
     text-decoration: none;
 }
-ul, ol{
+ul,
+ol {
     list-style: none;
 }
-body{
+body {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
     min-height: 100vh
-   
 }
-.main{
+.main {
     display: flex;
     gap: 80px;
-  
 }
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
 }
-.nav-menu{
+.nav-menu {
     display: flex;
     justify-content: flex-end;
-    gap:15px
+    gap: 15px
 }
-.nav-menu-item{
+.nav-menu-item {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
- 
     color: #000000;
 }
-.sidebar{
+.sidebar {
     width: 370px;
     margin-top: -27px;
     overflow: hidden;
@@ -49,147 +46,134 @@ body{
     background: #1E2939;
     color: #fff;
 }
-.avatar{
+.avatar {
     width: 100%;
     margin-bottom: 50px;
 }
-.sidebar-title{
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 27px;
-margin-bottom: 10px;
+.sidebar-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
 }
-.sidebar-content{
+.sidebar-content {
     margin-left: 40px;
     margin-bottom: 47px;
 }
-.contact-type{
+.contact-type {
     font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 24px;
-margin-right: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
 }
-.contact-link{
+.contact-link {
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 171%;
-color: #FFFFFF;
-opacity: 0.5;
-}
-.sidebar-list{
-    margin-left: 17px;
-    color:#FB6D3A;
     font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+    font-size: 14px;
+    line-height: 171%;
+    color: #FFFFFF;
+    opacity: 0.5;
 }
-.sidebar-list-text{
-    color:#fff
+.sidebar-list {
+    margin-left: 17px;
+    color: #FB6D3A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
-.info{
+.sidebar-list-text {
+    color: #fff
+}
+.info {
     margin-top: 102px;
     padding-right: 214px;
 }
-.info>div{
+.info>div {
     margin-bottom: 40px;
 }
-.info-title{
+.info-title {
     font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 27px;
-margin-bottom: 12px;
-/* identical to box height */
-
-
-color: #000000;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 12px;
+    color: #000000;
 }
-.info-name{
+.info-name {
     font-style: normal;
-font-weight: 700;
-font-size: 45px;
-line-height: 55px;
-margin-bottom: 24px;
-color: #000000;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 24px;
+    color: #000000;
 }
-.position{
+.position {
     font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-margin-bottom: 19px;
-
-color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 19px;
+    color: #000000;
 }
-.info-date{
+.info-date {
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     color: #A8A8A8;
     margin-bottom: 8px;
 }
-.info-list-dots{
+.info-list-dots {
     margin-left: 15px;
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 171%;
-color: #595959;
-margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
+    margin-bottom: 16px;
 }
-
-.info-subtitle{
+.info-subtitle {
     font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-margin-bottom: 11px;
-color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 11px;
+    color: #000000;
 }
-.info-list-num{
+.info-list-num {
     margin-left: 15px;
     font-weight: 700;
-font-size: 14px;
-line-height: 24px;
-
-color: #000000;
-
-
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
 }
-
-.info-list-num a,.info-list-num span{    
+.info-list-num a,
+.info-list-num span {
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
 
 }
-
-.info-about{
+.info-about {
     max-width: 400px;
 }
-.orange-color{
+.orange-color {
     color: #FB6D3A;
-    
-    
 }
-.footer-wrap{
+.footer-wrap {
     display: flex;
     justify-content: space-around;
- 
 }
-.footer-logo{
+.footer-logo {
     flex-shrink: 0;
-} 
-
-.footer-logo img{
- width: 60px;
-} .footer-text{
+}
+.footer-logo img {
+    width: 60px;
+}
+.footer-text {
     color: #FB6D3A;
     font-size: 24px;
     font-weight: 700;
